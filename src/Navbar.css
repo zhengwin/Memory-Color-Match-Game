@@ -1,0 +1,26 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #57058B;;
+    color: #fff;
+}
+
+h1 {
+    margin-left: 40px;
+    letter-spacing: 4px;
+}
+
+#play-again {
+    list-style: none;
+    margin-right: 60px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+#play-again:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
